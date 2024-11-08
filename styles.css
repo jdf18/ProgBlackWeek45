@@ -23,7 +23,6 @@ td {
     font-size: 13mm;
     font: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
 }
 
 .heading {
@@ -44,7 +43,7 @@ td {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.menuBar{
+.menuBar {
     text-emphasis-color: black;
     text-align: center;
     font: bold;
@@ -56,22 +55,103 @@ td {
 
     border-bottom: 1mm;
     border-style: solid;
-    border-color: rgb(164, 178, 181);
-
-    a:hover {
-        color: black;
-        background-color: rgb(154, 178, 183);
-    }
-
-    a {
-        float: center;
-        display:inline-block;
-        color: black;
-        padding:10px 30px;
-    }
-
+    margin-bottom: 20px;
+    background-color: #1e1e1e;
+    padding: 10px 0;
 }
 
+.menuBar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #bb86fc;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.menuBar a:hover {
+    background-color: #bb86fc;
+    color: #121212;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+.timeline {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #1e1e1e;
+    border-radius: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+
+.timeline h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.timeline-item {
+    margin-bottom: 20px;
+}
+
+.timeline-item h2 {
+    background: #bb86fc;
+    color: #121212;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.timeline-item h3 {
+    margin-top: 10px;
+    color: #7e38d4;
+}
+
+.timeline-item ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.timeline-item ul li {
+    margin-bottom: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .timeline {
+        padding: 10px;
+    }
+
+    .timeline-item h2,
+    .timeline-item h3 {
+        font-size: 1.2em;
+    }
+
+    .timeline-item ul {
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .timeline {
+        padding: 5px;
+    }
+
+    .timeline-item h2,
+    .timeline-item h3 {
+        font-size: 1em;
+    }
+
+    .timeline-item ul {
+        padding-left: 10px;
+    }
+}
 
 .Intro,
 .paragraph {
@@ -85,7 +165,6 @@ td {
     margin-right: 10mm;
     margin-left: 10mm
 }
-
 
 /*------ Apeture Section ------*/
 
@@ -109,4 +188,112 @@ td {
 .apetureTableHeading {
     font-family: Arial, Helvetica, sans-serif;
     border: 5px dotted rgb(154, 178, 183);
+}
+
+#body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+.menuBar {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #1e1e1e;
+    padding: 10px 0;
+}
+
+.menuBar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #bb86fc;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.menuBar a:hover {
+    background-color: #bb86fc;
+    color: #121212;
+}
+
+.timeline {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #1e1e1e;
+    border-radius: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+
+.timeline h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.timeline-item {
+    margin-bottom: 20px;
+}
+
+.timeline-item h2 {
+    background: #bb86fc;
+    color: #121212;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.timeline-item h3 {
+    margin-top: 10px;
+    color: #7e38d4;
+}
+
+.timeline-item ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.timeline-item ul li {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .timeline {
+        padding: 10px;
+    }
+
+    .timeline-item h2,
+    .timeline-item h3 {
+        font-size: 1.2em;
+    }
+
+    .timeline-item ul {
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .timeline {
+        padding: 5px;
+    }
+
+    .timeline-item h2,
+    .timeline-item h3 {
+        font-size: 1em;
+    }
+
+    .timeline-item ul {
+        padding-left: 10px;
+    }
+}
+
+h1 {
+    background: linear-gradient(to right, #0A5C36, #18392B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 200px;
+    font-family: monospace;
+    display: inline-block;
 }
