@@ -297,3 +297,10 @@ h1 {
     font-family: monospace;
     display: inline-block;
 }
+
+.main_section{
+    padding-left: 10%;
+    padding-right: 10%;
+
+    text-align: justify;
+}
