@@ -1,7 +1,7 @@
 /*------ General ------*/
-* {
+/* * {
     background-color: white;
-}
+} */
 
 th,
 td {
@@ -14,6 +14,10 @@ td {
     border-bottom: 1mm solid rgb(154, 178, 183);
     border-top: 1mm solid rgb(154, 178, 183);
 
+    background-image: url('Assets/HeadingBackground.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+
     color: black;
     text-align: center;
     font-size: 13mm;
@@ -25,7 +29,7 @@ td {
 .heading {
     border-bottom: 1mm solid rgb(154, 178, 183);
 
-    color: black;
+    color: white;
     text-align: center;
     font-size: 9mm;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -33,7 +37,7 @@ td {
 
 /*------ Introduction Section ------*/
 #hpTitle {
-    color: black;
+    color: white;
     text-align: center;
     font: bold;
     font-size: 3cm;
